@@ -117,5 +117,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.thermal_warmreset = true \
 
+# Google Device
+PRODUCT_PACKAGES += \
+    SystemUIGoogle
+
 export BLISS_BUILDTYPE=ALPHA
 export BLISS_DEVELOPER=wrongway213
