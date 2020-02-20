@@ -625,4 +625,7 @@
     <!-- Whether or not aware is enabled by default -->
     <bool name="config_awareSettingAvailable">true</bool>
 
+ <!-- Whether to use in-built Screen Record service -->
+    <bool name="config_showScreenRecord">true</bool>
+
 </resources>
