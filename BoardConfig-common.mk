@@ -53,7 +53,6 @@ BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 10.0.4
 TARGET_KERNEL_SOURCE := kernel/google/floral
 TARGET_KERNEL_CONFIG := fsociety_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
