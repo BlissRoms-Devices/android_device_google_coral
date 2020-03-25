@@ -21,6 +21,10 @@
 # lines, aosp and du, hence its name.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 3040
+TARGET_SCREEN_WIDTH := 1440
+
 # Include Bliss common configuration
 include vendor/bliss/config/common_full_phone.mk
 
