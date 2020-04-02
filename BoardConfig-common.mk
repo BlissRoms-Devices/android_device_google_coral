@@ -16,6 +16,8 @@
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
 
+export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+
 TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_INFO_FILE := device/google/coral/board-info.txt
 USES_DEVICE_GOOGLE_CORAL := true
