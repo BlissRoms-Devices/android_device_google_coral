@@ -25,6 +25,9 @@
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
+#Use Coral native Face Unlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 # Include Bliss common configuration
 include vendor/bliss/config/common_full_phone.mk
 
