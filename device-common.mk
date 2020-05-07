@@ -117,5 +117,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.thermal_warmreset = true \
 
-export BLISS_BUILDTYPE=OFFICIAL
+export BLISS_BUILDTYPE=ALPHA
 export BLISS_DEVELOPER=wrongway213
