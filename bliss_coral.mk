@@ -2,6 +2,9 @@
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1440
+
 # Inherit some common bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
