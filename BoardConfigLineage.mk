@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/google/coral
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
 KERNEL_LD := LD=ld.lld
@@ -49,3 +51,7 @@ BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 30720000
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_coral
+TARGET_RECOVERY_DEVICE_MODULES := libinit_coral
