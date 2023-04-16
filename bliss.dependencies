@@ -1,0 +1,20 @@
+[
+  {
+    "remote"      : "BlissRoms-Devices",
+    "repository"  : "proprietary_vendor_google_coral",
+    "target_path" : "vendor/google/coral",
+    "revision"    : "typhoon"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "REV3NT3CH-Devices/android_packages_apps_ElmyraService",
+    "target_path" : "packages/apps/ElmyraService",
+    "revision"    : "typhoon"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "B14CKB1RD-Kernel/B14CKB1RD_floral",
+    "target_path" : "kernel/google/B14CKB1RD_floral",
+    "revision"    : "typhoon"
+  }
+]
