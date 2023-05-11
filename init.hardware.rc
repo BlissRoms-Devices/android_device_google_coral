@@ -48,16 +48,10 @@ on init
 
     # Boot time fs tuning
     write /sys/block/sda/queue/iostats 0
-    write /sys/block/sda/queue/scheduler cfq
-    write /sys/block/sda/queue/iosched/slice_idle 0
     write /sys/block/sda/queue/nr_requests 256
     write /sys/block/sde/queue/iostats 0
-    write /sys/block/sde/queue/scheduler cfq
-    write /sys/block/sde/queue/iosched/slice_idle 0
     write /sys/block/sde/queue/nr_requests 256
     write /sys/block/sdf/queue/iostats 0
-    write /sys/block/sdf/queue/scheduler cfq
-    write /sys/block/sdf/queue/iosched/slice_idle 0
     write /sys/block/sdf/queue/nr_requests 256
 
     # Disable powersaving
